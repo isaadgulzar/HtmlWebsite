@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apply Filters on Images</title>
+    <link rel="icon" href="SG_Logo.png">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    <script src="./coding.js"></script>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+</head>
+
+<body>
+
+    <canv class="container">
+        <header>Apply Filters on your Images</header>
+        <canvas class="SimpleImage" id="canvasOne">
+
+        </canvas>
+        <canvas class="FilteredImage" id="canvasTwo">
+
+        </canvas>
+        <label>
+        <legend class="LoadImageText">Load Image</legend>
+        <input id="chooseBtn" type="file" multiple="false" accept="image/*" onchange="loadImage()">
+        </label>
+        <label>
+            <legend class="FilterText"> Select Filter</legend>
+        </label>
+        
+        <input id="greyBtn" type="button" value="Grey Scale" onclick="makeGrey()">
+        </div>
+
+
+</body>
+
+</html>
