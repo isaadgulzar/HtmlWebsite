@@ -46,6 +46,12 @@
     left: 20px;
     top:480px;
 }
+#uploadBtn
+{
+    position: absolute;
+    left: 265px;
+    top:480px;
+}
 .FilterText
 {
     position: absolute;
