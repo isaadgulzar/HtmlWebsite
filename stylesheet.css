@@ -1,0 +1,61 @@
+.container
+{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 600px;
+    border: 1px solid ;
+}
+.container > header
+{
+    position: absolute;
+    left: 220px;
+    font-size: 20px;
+}
+.SimpleImage
+{
+    position: absolute;
+    left: 20px;
+    top:15px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid ;
+    margin-top: 15px;
+}
+.FilteredImage
+{
+    position: absolute;
+    left: 325px;
+    top:15px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid ;
+    margin-left:35px;
+    margin-top: 15px;
+}
+.LoadImageText
+{
+    position: absolute;
+    top:440px;
+    left: 20px;
+    font-size: 20px;
+}
+#chooseBtn
+{
+    position: absolute;
+    left: 20px;
+    top:480px;
+}
+.FilterText
+{
+    position: absolute;
+    top:440px;
+    left: 360px;
+    font-size: 20px;
+}
+#greyBtn
+{
+    position: absolute;
+    left: 360px;
+    top:480px;
+}
