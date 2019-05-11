@@ -15,7 +15,7 @@
 
 <body>
 
-    <canv class="container">
+    <div class="container">
         <header>Apply Filters on your Images</header>
         <canvas class="SimpleImage" id="canvasOne">
 
@@ -25,8 +25,9 @@
         </canvas>
         <label>
         <legend class="LoadImageText">Load Image</legend>
-        <input id="chooseBtn" type="file" multiple="false" accept="image/*" onchange="loadImage()">
+        <input id="chooseBtn" type="file" multiple="false" accept="image/*">
         </label>
+        <input id="uploadBtn" type="button" value="Upload" onclick="loadImage()">
         <label>
             <legend class="FilterText"> Select Filter</legend>
         </label>
