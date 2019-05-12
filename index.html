@@ -9,9 +9,11 @@
     <link rel="icon" href="SG_Logo.png">
     <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <script src="./coding.js"></script>
-    <script src="./temp.js"></script>
-    <!-- <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script> -->
-
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,16 +27,22 @@
 
         </canvas>
         <label>
-            <legend class="LoadImageText">Load Image</legend>
-            <input id="chooseBtn" type="file" multiple="false" accept="image/*">
+        <legend class="LoadImageText">Load Image</legend>
+        <input id="chooseBtn" type="file" multiple="false" accept="image/*">
         </label>
         <input id="uploadBtn" type="button" value="Upload" onclick="loadImage()">
         <label>
             <legend class="FilterText"> Select Filter</legend>
         </label>
-
+        
         <input id="greyBtn" type="button" value="Grey Scale" onclick="makeGrey()">
-    </div>
+        <button id="btnDownload">
+             <a href="#" id="download" onclick="temp()">Download</a>
+        </button>
+         
+        </div>
+        
+         
 
 
 </body>

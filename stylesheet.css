@@ -65,3 +65,21 @@
     left: 360px;
     top:480px;
 }
+#btnDownload
+{
+    position: absolute;
+    left: 360px;
+    top:570px;
+}
+#download
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+#download:visited
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
